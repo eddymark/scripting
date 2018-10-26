@@ -1,0 +1,47 @@
+
+
+echo "Hello going to create your website"
+
+echo "your current directory is $(pwd)"
+
+touch index.html
+
+html(){
+
+echo "<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>First paget</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Hello world</h1>
+</body>
+</html>"
+
+}
+
+
+html >> index.html
+
+ 
+ touch styles.css
+
+ css(){
+      echo " body{
+    /* this is a red background color for testing*/
+    background-color: red ;
+} "
+
+ }
+
+css >> styles.css
+
+ touch readme.md
+
+ls
+
+echo "you now have your files strat hacking"
