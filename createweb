@@ -1,6 +1,6 @@
 
 
-echo "Hello going to create your website"
+echo "Hello you are going to create your website"
 
 echo "your current directory is $(pwd)"
 
@@ -44,4 +44,4 @@ css >> styles.css
 
 ls
 
-echo "you now have your files strat hacking"
+echo "you now have your files start hacking"
