@@ -1,0 +1,7 @@
+rm index.html
+rm readme.md    
+rm styles.css
+
+echo "you just removed the files "
+
+ls
